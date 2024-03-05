@@ -40,7 +40,7 @@ const HomeScreen = ({navigation}: {navigation: any}) => {
       currency,
     };
     try {
-      const response = await fetch('http://192.168.100.133:3000/api/init', {
+      const response = await fetch('http://~~SERVER_WEB_VIEW_URL~~/api/init', {
         headers: {
           'Content-Type': 'application/json',
         },
