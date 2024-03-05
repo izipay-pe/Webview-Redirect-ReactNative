@@ -15,15 +15,15 @@ En este manual podrás encontrar una guía paso a paso para configurar un proyec
 Este manual está diseñado para ayudarte a comprender el flujo de la integración de la pasarela para ayudarte a aprovechar al máximo tu proyecto y facilitar tu experiencia de desarrollo.
 
 <p align="center">
-  <img src="https://i.postimg.cc/rm3fcDhc/Flutter-redic.png" alt="Formulario" width="350"/>
+  <img src="https://raw.githubusercontent.com/izipay-pe/Imagenes/main/formulario_movil_webview/Imagen-Formulario-Webview-Android.png.PNG" alt="Formulario" width="350"/>
 </p>
 
 <a name="Requisitos_Previos"></a>
  
 ## 2. Requisitos previos
-* Comprender el flujo de comunicación de la pasarela. [Información Aquí](https://secure.micuentaweb.pe/doc/es-PE/rest/V4.0/javascript/guide/start.html)
+* Comprender el flujo de comunicación de la pasarela. [Información Aquí](https://secure.micuentaweb.pe/doc/es-PE/m-payment/webview/cinematica-de-pago.html)
 * Extraer credenciales del Back Office Vendedor. [Guía Aquí](https://github.com/izipay-pe/obtener-credenciales-de-conexion)
-* Para este proyecto utilizamos **Flutter 3.20.0**
+* Para este proyecto utilizamos **Nodejs v20.10.0**
 * Ejecutar un servidor webview que genere el url de redirección. [Ejemplo Aquí](https://github.com/izipay-pe/Server-Webview-Java)
 * Para este proyecto utilizamos la herramienta Android Studio.
 > [!NOTE]
@@ -65,7 +65,7 @@ Antes de poner en marcha su pasarela de pago en un entorno de producción, es es
 Puede intentar realizar una transacción utilizando una tarjeta de prueba (en la parte inferior del formulario).
 
 <p align="center">
-  <img src="https://github.com/izipay-pe/Imagenes/blob/main/formulario_redireccion/Imagen-Formulario-Redireccion-testcard.png?raw=true" alt="Formulario" width="450"/>
+  <img src="https://raw.githubusercontent.com/izipay-pe/Imagenes/main/formulario_movil_webview/Imagen-Formulario-Webview-Android-testcard.png.PNG" alt="Formulario" width="350"/>
 </p>
 
 * También puede encontrar tarjetas de prueba en el siguiente enlace. [Tarjetas de prueba](https://secure.micuentaweb.pe/doc/es-PE/rest/V4.0/api/kb/test_cards.html)
@@ -85,6 +85,5 @@ Si deseas aplicar cambios específicos en la apariencia de la página de pago, p
 
 ## 8. Consideraciones
 Para obtener más información, echa un vistazo a:
-- [Formulario incrustado: prueba rápida](https://secure.micuentaweb.pe/doc/es-PE/rest/V4.0/javascript/quick_start_js.html)
-- [Primeros pasos: pago simple](https://secure.micuentaweb.pe/doc/es-PE/rest/V4.0/javascript/guide/start.html)
+- [Integración del pago móvil vía webview](https://secure.micuentaweb.pe/doc/es-PE/m-payment/webview/sitemap.html)
 - [Servicios web - referencia de la API REST](https://secure.micuentaweb.pe/doc/es-PE/rest/V4.0/api/reference.html)
